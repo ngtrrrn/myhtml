@@ -4,26 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ドットインストール</title>
-    <meta
-      name="description"
-      content="プログラミング学習サービスのドットインストールです"
-    />
   </head>
-
   <body>
-    <h1>記事一覧</h1>
-
-    <article>
-      <h2><span style="color: red">記</span>事のタイトル</h2>
-      <div style="background: silver">
-        <p>お知らせです。お知らせです。</p>
-        <footer>投稿日： <time>2020-09-12</time> by @ngtrrrn</footer>
-      </div>
-    </article>
-    <article>
-      <h2>記事のタイトル</h2>
-      <p>お知らせです。お知らせです。</p>
-      <footer>投稿日： <time>2020-09-12</time> by @ngtrrrn</footer>
-    </article>
+    <form action="process.php" method="post">
+      <label>担当者名<input type="text" name="username" /></label>
+      <label>タスク<input type="text" name="task" /></label>
+      <button>追加</button>
+    </form>
   </body>
 </html>
